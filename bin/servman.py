@@ -9,4 +9,10 @@
 # 
 ######
 
-print "Hello World"
+## Important -- Resetting the path to the parent directory for compatability.
+import sys
+sys.path.append("/var/servman/server-man")
+
+
+## Import config module
+import lib.config
