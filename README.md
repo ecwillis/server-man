@@ -4,6 +4,8 @@ This is the README file for the *Server Man* repository. *Server Man* is a pytho
 
 The project is in it's early stages, so keep checking back for more information.
 
+*NOTE:* All changes should be made on _develop_ branch.
+
 ## Changes
 
 * 0.0a Simply committed this here ReadMe... super simple.
