@@ -1,5 +1,3 @@
-#!/usr/bin/env python
-
 ######
 #
 # File: bin/servman.py
@@ -9,10 +7,10 @@
 # 
 ######
 
-## Important -- Resetting the path to the parent directory for compatability.
-import sys
-sys.path.append("/var/servman/server-man")
-
-
-## Import config module
-import lib.config
+def execute_from_command_line(args=None):
+	""" 
+	Simple function to execute the cli handler. 
+	"""
+	#cli_util = CLIUtility(args)
+	#cli_util.execute()
+	print args

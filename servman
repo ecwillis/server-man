@@ -1,0 +1,15 @@
+#!/usr/bin/env python
+
+######
+#
+# 	File: servman
+#	-- This is the main entry point for the cli.
+#	-- Usage: $> servman -(-)[options] [args]
+#
+######
+
+import sys
+import os
+from app.bin.servman import execute_from_command_line
+
+execute_from_command_line(sys.argv)
